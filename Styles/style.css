@@ -137,11 +137,45 @@ font-size: large;
      background-color: white;
      color: black;
      text-align: center;
-     height: 200px;
-     width: 200px;
+     height: 180px;
+     width: 180px;
      padding: 45px;
      border-radius: 5px;
      margin-top: 10px;
      margin-left: 10px;
      /* box-shadow: 4px 4px 4px gray; */
+}
+
+.appointment-section{
+     display: flex;
+     width: 70%;
+     background-color: rgb(245, 44, 44);
+     color: white;
+     border-radius: 10px;
+     margin: -60px auto;
+     padding: 20px 10px;
+     justify-content: center;
+     align-items: center;
+}
+.phone-call{
+     display: flex;
+     border-right: 2px solid gray;
+     margin-right: 5px;
+     margin-left: 5px;
+     justify-content: center;
+     align-items: center;
+}
+.phone-call-des{
+     margin-left: 8px;
+}
+.appointment-section-des{
+     width: 50%;
+     text-align: center;
+     line-height: 30px;
+}
+.btn-5{
+     padding: 10px 40px;
+     border-radius: 20px;
+     border: none;
+     font-size: 1rem;
 }
